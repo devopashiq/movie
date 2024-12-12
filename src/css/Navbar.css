@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+
+
+.nav-links{
+    display: flex;
+    gap: 15px;
+
+}
+
+.nav-links a,.header_logo{
+    text-decoration: none;
+}
+
+
+.nav-links  a.active {
+    font-weight: bold;
+    color: blue;
+    border-bottom: 2px solid blue;
+  }
+
+

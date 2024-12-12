@@ -1,0 +1,46 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+
+
+form{
+    display: flex;
+    gap:10px;
+    margin-top: 30px;
+    
+}
+
+
+
+
+form button {
+    background-color: red;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 150ms ;
+
+}
+
+
+
+form button:hover{
+    cursor: pointer;
+    background-color: rgb(192, 27, 27);
+}
+
+.movie_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+
+}
